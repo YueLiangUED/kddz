@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>移动宽带</title>
+    <link rel="stylesheet" href="css/reset.min.css">
+    <link rel="stylesheet" href="css/swiper-3.4.2.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<!--顶部轮播图-->
+<header>
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div id="jump1" class="swiper-slide">
+                <img data-src="images//banner1.jpg" class="swiper-lazy"/>
+                <div class="swiper-lazy-preloader"></div>
+            </div>
+            <div id="jump2" class="swiper-slide">
+                <img data-src="images//banner1.jpg" class="swiper-lazy"/>
+                <div class="swiper-lazy-preloader"></div>
+            </div>
+            <div id="jump3" class="swiper-slide">
+                <img data-src="images//banner1.jpg" class="swiper-lazy"/>
+                <div class="swiper-lazy-preloader"></div>
+            </div>
+        </div>
+        <div class="swiper-pagination"></div>
+    </div>
+</header>
+<section>
+    <div class="message">
+        <span></span>
+        <p>请根据您宽带使用地址选择行政区域后拨打维修电话,工程师<br>会根据您的需求及时处理故障。感谢您选择中国移动光宽带!</p>
+    </div>
+    <div class="contentText">
+        <ul class="active">
+            <li>
+                <span></span>
+                <p><b>朝阳区</b></p>
+                <p>维修电话：<a>53010086</a></p>
+            </li>
+            <li>
+                <span></span>
+                <p><b>东城区</b></p>
+                <p>维修电话：<a>53319904</a>&nbsp;/&nbsp;<a>53319905</a></p>
+            </li>
+            <li>
+                <span></span>
+                <p><b>西城区</b></p>
+                <p>维修电话：<a>53319904</a>&nbsp;/&nbsp;<a>53319905</a></p>
+            </li>
+            <li>
+                <span></span>
+                <p><b>丰台区</b></p>
+                <p>维修电话：<a>4001830630</a></p>
+            </li>
+            <li>
+                <span></span>
+                <p><b>海淀区</b></p>
+                <p>维修电话：<a>52857056</a></p>
+            </li>
+            <li>
+                <span></span>
+                <p><b>石景山区</b></p>
+                <p>维修电话：<a>52857056</a></p>
+            </li>
+            <li>
+                <span></span>
+                <p><b>门头沟区</b></p>
+                <p>维修电话：<a>52857056</a></p>
+            </li>
+            <li>
+                <span></span>
+                <p><b>房山区</b></p>
+                <p>维修电话：<a>52413559</a>&nbsp;/&nbsp;<a>53319905</a></p>
+            </li>
+            <li>
+                <span></span>
+                <p><b>怀柔区</b></p>
+                <p>维修电话：<a>52158811</a>&nbsp;/&nbsp;<a>52158819</a></p>
+            </li>
+            <li>
+                <span></span>
+                <p><b>平谷区</b></p>
+                <p>维修电话：<a>51320000</a></p>
+            </li>
+            <li>
+                <span></span>
+                <p><b>大兴区</b></p>
+                <p>维修电话：<a>52477030</a>&nbsp;/&nbsp;<a>52477031</a></p>
+            </li>
+            <li>
+                <span></span>
+                <p><b>通州区</b></p>
+                <p>维修电话：<a>52854744</a></p>
+            </li>
+            <li>
+                <span></span>
+                <p><b>顺义区</b></p>
+                <p>维修电话：<a>52130000</a></p>
+            </li>
+            <li>
+                <span></span>
+                <p><b>昌平区</b></p>
+                <p>维修电话：<a>52857136</a></p>
+            </li>
+            <li>
+                <span></span>
+                <p><b>密云县</b></p>
+                <p>维修电话：<a>18811685805</a></p>
+            </li>
+            <li>
+                <span></span>
+                <p><b>延庆县</b></p>
+                <p>维修电话：<a>51051034</a></p>
+            </li>
+        </ul>
+    </div>
+</section>
+</body>
+</html>
+<script src="js/jquery-1.10.1.min.js"></script>
+<script src="js/swiper-3.4.2.jquery.min.js"></script>
+<script src="js/index.js"></script>
+<script>
+    var mySwiper = new Swiper ('.swiper-container', {
+        direction: 'horizontal',
+        loop: true,
+        pagination: '.swiper-pagination',
+        paginationClickable :true,
+        effect: 'slide',
+        autoplay: 3000,
+        autoplayDisableOnInteraction: false,
+        lazyLoading: true,
+        lazyLoadingInPrevNext: true,
+    });
+</script>

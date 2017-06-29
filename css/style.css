@@ -1,0 +1,104 @@
+html,body{
+    background-color: #f4f4f4;
+}
+header .swiper-container .swiper-slide img{
+    width: 37.5rem;
+    height: 14.1rem;
+}
+header .swiper-pagination span{
+    width: 0.7rem;
+    height: 0.7rem;
+    opacity: 1;
+}
+header span.swiper-pagination-bullet{
+    margin: 0 1rem;!important;
+    background-color: #f8a0b6;
+}
+header span.swiper-pagination-bullet-active{
+    background-color: #ffffff;
+}
+section{
+    box-sizing: border-box;
+    width: 37.5rem;
+}
+section .message{
+    position: relative;
+    box-sizing: border-box;
+    padding: 0.3rem 1.1rem 0.3rem 6rem;
+    width: 37.5rem;
+    border-bottom: 2px solid #d3d3d3;
+    box-shadow: 0 -2px 0.5rem #eeeeee;
+    background-color: #ffffff;
+}
+section .message span{
+    position: absolute;
+    top: 0;
+    left: 1rem;
+    bottom: 0;
+    margin: auto;
+    display: inline-block;
+    width: 4rem;
+    height: 2.75rem;
+    background: url("../images/icon.png") center no-repeat;
+    background-size: cover;
+}
+section .message p{
+    font-size: 1.1rem;
+    color: #222222;
+    line-height: 1.8rem;
+    letter-spacing: 1px;
+    text-align: justify;
+}
+section .contentText{
+    box-sizing: border-box;
+    margin-bottom: 2.25rem;
+    padding-top: 0.8rem;
+    width: 37.5rem;
+    background-color: #ffffff;
+    box-shadow: 0 5px 0.5rem #bbbbbb;
+}
+section .contentText ul{
+    display: none;
+}
+section .contentText .active{
+    display: block;
+}
+section .contentText ul li{
+    position: relative;
+    box-sizing: border-box;
+    padding: 0.6rem 0 1rem 5.9rem;
+    width: 37.5rem;
+    height: 6rem;
+}
+section .contentText ul li:nth-child(odd){
+    background-color: #eeeeee;
+}
+section .contentText ul li:last-child{
+    margin-bottom: 0;
+}
+section .contentText ul li span{
+    position: absolute;
+    top: 0;
+    left: 2.8rem;
+    bottom: 0;
+    margin: auto;
+    display: inline-block;
+    width: 0.4rem;
+    height: 1.75rem;
+    background-color: #017acc;
+}
+section .contentText ul li p{
+    font-size: 1.4rem;
+    line-height: 2.5rem;
+    color: #333333;
+}
+section .contentText ul li p b{
+    font-weight: bold;
+    font-size: 1.6rem;
+}
+section .contentText ul li p a{
+    font-weight: normal;
+}
+section .contentText ul li p a:first-child{
+    margin-left: 2rem;
+}
