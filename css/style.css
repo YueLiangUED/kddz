@@ -24,7 +24,7 @@ section{
 section .message{
     position: relative;
     box-sizing: border-box;
-    padding: 0.3rem 1rem 0.3rem 6rem;
+    padding: 0.3rem 1rem 0.3rem 5.8rem;
     width: 37.5rem;
     border-bottom: 2px solid #d3d3d3;
     box-shadow: 0 -2px 0.5rem #eeeeee;
