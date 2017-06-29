@@ -17,12 +17,5 @@ $(function () {
     $('#jump3').on('click',function () {
         window.location.href = '';
     });
-
-    $('#selectCity').on('change',function () {
-        var $this = $(this);
-        $('.contentText').find('ul').each(function (index,ele) {
-            ele.id == $this.val() ? ele.className = 'active' : ele.className = '';
-        });
-    });
-
+    
 });
