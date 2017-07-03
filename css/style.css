@@ -66,9 +66,9 @@ section .contentText .active{
 section .contentText ul li{
     position: relative;
     box-sizing: border-box;
-    padding: 0.6rem 0 1rem 5.9rem;
+    padding: 0.5rem 0 0.5rem 5.9rem;
     width: 37.5rem;
-    height: 6rem;
+    height: 5rem;
 }
 section .contentText ul li:nth-child(odd){
     background-color: #eeeeee;
@@ -89,7 +89,7 @@ section .contentText ul li span{
 }
 section .contentText ul li p{
     font-size: 1.4rem;
-    line-height: 2.5rem;
+    line-height: 2rem;
     color: #333333;
 }
 section .contentText ul li p b{
